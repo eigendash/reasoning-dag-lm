@@ -1,0 +1,107 @@
+{
+  "2_conditions": {
+    "yes_rate": 0.453125,
+    "direct": {
+      "answer": 0.640625,
+      "valid": 0.0,
+      "faithful": 0.0,
+      "sound": 0.0,
+      "finished": 1.0,
+      "tokens": 4.59375
+    },
+    "chain": {
+      "answer": 1.0,
+      "valid": 0.0,
+      "faithful": 0.0,
+      "sound": 0.0,
+      "finished": 1.0,
+      "tokens": 34.453125
+    },
+    "dot": {
+      "answer": 0.609375,
+      "valid": 1.0,
+      "faithful": 0.3125,
+      "sound": 0.609375,
+      "finished": 1.0,
+      "tokens": 534.0
+    },
+    "dot+mask": {
+      "answer": 0.609375,
+      "valid": 1.0,
+      "faithful": 0.3125,
+      "sound": 0.609375,
+      "finished": 1.0,
+      "tokens": 534.0
+    }
+  },
+  "3_conditions": {
+    "yes_rate": 0.328125,
+    "direct": {
+      "answer": 0.734375,
+      "valid": 0.0,
+      "faithful": 0.0,
+      "sound": 0.0,
+      "finished": 1.0,
+      "tokens": 4.25
+    },
+    "chain": {
+      "answer": 1.0,
+      "valid": 0.0,
+      "faithful": 0.0,
+      "sound": 0.0,
+      "finished": 1.0,
+      "tokens": 49.328125
+    },
+    "dot": {
+      "answer": 0.59375,
+      "valid": 1.0,
+      "faithful": 0.1875,
+      "sound": 0.59375,
+      "finished": 1.0,
+      "tokens": 816.484375
+    },
+    "dot+mask": {
+      "answer": 0.59375,
+      "valid": 1.0,
+      "faithful": 0.1875,
+      "sound": 0.59375,
+      "finished": 1.0,
+      "tokens": 816.484375
+    }
+  },
+  "4_conditions": {
+    "yes_rate": 0.15625,
+    "direct": {
+      "answer": 0.453125,
+      "valid": 0.0,
+      "faithful": 0.0,
+      "sound": 0.0,
+      "finished": 1.0,
+      "tokens": 4.671875
+    },
+    "chain": {
+      "answer": 0.6875,
+      "valid": 0.0,
+      "faithful": 0.0,
+      "sound": 0.0,
+      "finished": 1.0,
+      "tokens": 35.109375
+    },
+    "dot": {
+      "answer": 0.046875,
+      "valid": 0.09375,
+      "faithful": 0.046875,
+      "sound": 0.078125,
+      "finished": 0.90625,
+      "tokens": 966.125
+    },
+    "dot+mask": {
+      "answer": 0.421875,
+      "valid": 1.0,
+      "faithful": 0.09375,
+      "sound": 0.53125,
+      "finished": 1.0,
+      "tokens": 875.296875
+    }
+  }
+}

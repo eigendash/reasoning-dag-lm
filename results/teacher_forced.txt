@@ -1,0 +1,9 @@
+| position type | share of tokens | teacher-forced accuracy |
+|---|---:|---:|
+| syntax | 0.977 | 0.992 |
+| prop number | 0.013 | 0.860 |
+| critic mark | 0.004 | 0.713 |
+| critic word | 0.004 | 0.948 |
+| answer | 0.001 | 1.000 |
+
+marks that are 'validated' in the gold traces: 0.629 (majority-class rate 0.629)

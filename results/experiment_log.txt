@@ -1,0 +1,56 @@
+  [direct] step     1  loss 4.3796
+  [direct] step   250  loss 0.5757
+  [direct] step   500  loss 0.5119
+  [direct] step   750  loss 0.4888
+  [direct] step  1000  loss 0.5163
+  [direct] step  1250  loss 0.4848
+  [direct] step  1500  loss 0.4628
+  [direct] step  1750  loss 0.4825
+  [direct] step  2000  loss 0.4567
+  [direct] step  2250  loss 0.4934
+  [direct] step  2500  loss 0.4198
+  [direct] trained in 50s
+  [chain] step     1  loss 4.3479
+  [chain] step   250  loss 0.3995
+  [chain] step   500  loss 0.3065
+  [chain] step   750  loss 0.2468
+  [chain] step  1000  loss 0.2454
+  [chain] step  1250  loss 0.2222
+  [chain] step  1500  loss 0.2015
+  [chain] step  1750  loss 0.2096
+  [chain] step  2000  loss 0.2001
+  [chain] step  2250  loss 0.2079
+  [chain] step  2500  loss 0.1791
+  [chain] trained in 57s
+  [dot] step     1  loss 4.4906
+  [dot] step   250  loss 0.0519
+  [dot] step   500  loss 0.0466
+  [dot] step   750  loss 0.0412
+  [dot] step  1000  loss 0.0318
+  [dot] step  1250  loss 0.0326
+  [dot] step  1500  loss 0.0306
+  [dot] step  1750  loss 0.0292
+  [dot] step  2000  loss 0.0249
+  [dot] step  2250  loss 0.0267
+  [dot] step  2500  loss 0.0238
+  [dot] trained in 824s
+evaluated 2 conditions
+evaluated 3 conditions
+evaluated 4 conditions
+
+answer accuracy (majority-class rate in brackets)
+| conditions | direct | chain | dot | dot + validator mask |
+|---:|---:|---:|---:|---:|
+| 2 [0.55] | 0.64 | 1.00 | 0.61 | 0.61 |
+| 3 [0.67] | 0.73 | 1.00 | 0.59 | 0.59 |
+| 4 [0.84] | 0.45 | 0.69 | 0.05 | 0.42 |
+
+dot traces: share that the validator accepts / critic marks all correct / validated claims all true / finished
+| conditions | decoding | accepted | faithful | sound | finished | mean tokens |
+|---:|---|---:|---:|---:|---:|---:|
+| 2 | free | 1.00 | 0.31 | 0.61 | 1.00 | 534 |
+| 2 | masked | 1.00 | 0.31 | 0.61 | 1.00 | 534 |
+| 3 | free | 1.00 | 0.19 | 0.59 | 1.00 | 816 |
+| 3 | masked | 1.00 | 0.19 | 0.59 | 1.00 | 816 |
+| 4 | free | 0.09 | 0.05 | 0.08 | 0.91 | 966 |
+| 4 | masked | 1.00 | 0.09 | 0.53 | 1.00 | 875 |
